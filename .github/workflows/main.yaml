@@ -3,9 +3,9 @@ name:
  
   # Controls when the workflow will run
 on:
-  # push:
-  #   branches:
-  #     - master
+  push:
+    branches:
+      - master
   # Triggers the workflow every 5 minutes
   schedule:
     - cron: "*/1 * * * *"
